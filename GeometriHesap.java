@@ -8,11 +8,10 @@
  * cevre hesaplamalarini yapar.
  */
 
-package GeometrikSekilHesaplayici;
 
 import java.util.Scanner;
 
-public class GeometrikSekilHesaplayici {
+public class GeometriHesapla {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
