@@ -9,9 +9,10 @@
  */
 
 
+import java.security.Principal;
 import java.util.Scanner;
 
-public class GeometriHesap {
+public class GeometrikSekilHesaplayici {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -65,6 +66,34 @@ public class GeometriHesap {
         System.out.printf("Üçgenin Alanı: %.2f cm^2\n", ucgen_alan);
 
         System.out.println("\n=============================================");
+
+        //Kullanıcıdan alınan değerleri ekrana alt alta yazdırıyoruz
+        System.out.println("");
+        System.out.println("_______________KULLANICIDAN ALINAN DEĞERLER_______________");
+        System.out.printf("Karenin Kenarı: %.2f" , kenar_uzunlugu);
+        System.out.printf("\nDikdörtgenin Kısa Kenarı: %.2f (cm)" , kisa_kenar );
+        System.out.printf("\nDikdörtgenin Uzun Kenarı: %.2f(cm)" , uzun_kenar);
+        System.out.printf("\nDairenin Yarıçapı: %.2f(cm)" , r );
+        System.out.printf("\nÜçgenin 1.Kenarı: %.2f(cm)" , kenar1 );
+        System.out.printf("\nÜçgenin 2.Kenarı: %.2f(cm)" , kenar2 );
+        System.out.printf("\nÜçgenin 3.Kenarı: %.2f(cm)" , kenar3 );
+        System.out.printf("\n__________________________________________________________\n");
+        System.out.println(" ");
+        System.out.println("________________HESAPLAMA SONUÇLARI_________________");
+        System.out.printf("\nKARENİN ALANI: %.2f " , kare_alan);
+        System.out.printf("\nKARENİN ÇEVRESİ: %.2f" , kare_cevre);
+        System.out.println(" ");
+        System.out.printf("\nDİKDÖRTGENİN ALANI: %.2f " , dikdortgen_alan);
+        System.out.printf("\nDİKDÖRTGENİN ÇEVRESİ: %.2f" , dikdortgen_cevre);
+        System.out.println(" ");
+        System.out.printf("\nDAİRENİN ALANI: %.2f" , daire_alan);
+        System.out.printf("\nDAİRENİN ÇEVRESİ: %.2f" , daire_cevre);
+        System.out.println(" ");
+        System.out.printf("\nÜÇGENİN ALANI: %.2f" , ucgen_alan );
+        System.out.printf("\nÜÇGENİN ÇEVRESİ: %.2f" , ucgen_cevre);
+        System.out.printf("\n____________________________________________________\n");
+
+
         scan.close();
     }
 
