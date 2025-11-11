@@ -53,21 +53,21 @@ public class FizikFormul {
         System.out.println("============== HESAPLAMA SONUÇLARI ===============\n");
 
         System.out.println("HIZ ve HAREKET:");
-        System.out.printf("  Hız (v = s/t)             : %.2f m/s\n", hız);
-        System.out.printf("  İvme (a = Δv/t)           : %.2f m/s²\n", ivme);
+        System.out.printf("  Hız (v = s / t)             : %.2f m/s\n", hız);
+        System.out.printf("  İvme (a = Δv / t)           : %.2f m/s²\n", ivme);
 
         System.out.println("\nKUVVET ve İŞ:");
-        System.out.printf("  Kuvvet (F = m*a)          : %.2f N\n", kuvvet);
-        System.out.printf("  İş (W = F*d)              : %.2f J\n", iş);
-        System.out.printf("  Güç (P = W/t)             : %.2f W\n", guc);
+        System.out.printf("  Kuvvet (F = kg * a)         : %.2f N\n", kuvvet);
+        System.out.printf("  İş (W = F * m)              : %.2f J\n", iş);
+        System.out.printf("  Güç (P = W / t)             : %.2f W\n", guc);
 
         System.out.println("\nENERJİ:");
-        System.out.printf("  Kinetik Enerji (KE)       : %.2f J\n", KE);
-        System.out.printf("  Potansiyel Enerji (PE)    : %.2f J\n", PE);
-        System.out.printf("  Toplam Enerji (ME)        : %.2f J\n", (PE + KE));
+        System.out.printf("  Kinetik Enerji (KE)         : %.2f J\n", KE);
+        System.out.printf("  Potansiyel Enerji (PE)      : %.2f J\n", PE);
+        System.out.printf("  Toplam Enerji (ME)          : %.2f J\n", (PE + KE));
 
         System.out.println("\nMOMENTUM:");
-        System.out.printf("  Momentum (p = m*v)        : %.2f kg·m/s\n", momentum);
+        System.out.printf("  Momentum (p = kg * v)        : %.2f kg·m/s\n", momentum);
 
         System.out.println("\n========================================");
 
@@ -107,3 +107,4 @@ public class FizikFormul {
         return kutle * hız;
     }
 }
+
