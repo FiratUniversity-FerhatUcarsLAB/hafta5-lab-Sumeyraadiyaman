@@ -106,7 +106,7 @@ public class SepetHesap {
 
         System.out.printf("Ara Toplam                        : %.2f TL\n" , araToplam);
         //İndirim Tutarını Çıkarırken (%%%.0f) kullan yoksa hata veriyor + indirimi çıkaracağımız için %.2f başına (-) ekliyoruz
-        System.out.printf("\nİndirim Tutarı (%%%.0f)              :  -%.2f TL\n" , indirimYuzdesi , indirimTutari);
+        System.out.printf("\nİndirim Tutarı (%%%.0f)              : -%.2f TL\n" , indirimYuzdesi , indirimTutari);
         System.out.printf("İndirimli Toplam Tutar            : %.2f TL\n" , indirimliToplam);
 
         //Kdc ve kargo ücretinde tutarı ekleyeceğimiz için (+) kullan
